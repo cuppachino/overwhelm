@@ -1,0 +1,5 @@
+@layer components {
+    .component-content {
+        @apply h-full box-border flex flex-col pointer-events-auto;
+    }
+}
