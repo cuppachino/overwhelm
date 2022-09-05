@@ -1,0 +1,5 @@
+@layer components {
+  .comp-content {
+    @apply w-full h-full box-border flex flex-col [overflow:"overlay"] pointer-events-auto;
+  }
+}
