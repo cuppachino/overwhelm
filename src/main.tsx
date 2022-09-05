@@ -5,7 +5,6 @@ import '@fontsource/m-plus-2';
 import './main.css';
 
 import App from './App';
-import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
