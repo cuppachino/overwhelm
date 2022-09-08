@@ -1,5 +1,0 @@
-@layer components {
-  .app {
-    @apply absolute inset-0 flex flex-col overflow-hidden box-border fill-current text-mono-0 bg-mono-7;
-  }
-}

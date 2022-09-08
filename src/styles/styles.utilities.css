@@ -1,0 +1,8 @@
+@layer utilities {
+  .font-mp-code {
+    font-family: "M PLUS 1 Code", monospace;
+  }
+  .font-mp-sans {
+    font-family: "M PLUS 2", sans-serif;
+  }
+}
