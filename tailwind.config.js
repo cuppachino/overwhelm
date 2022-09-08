@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  presets: [require('./plugins/ow-theme.cjs')],
+  presets: [require('./plugins/wip-theme.js')],
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {

@@ -5,12 +5,12 @@
       box-sizing: border-box;
     }
     *::-webkit-scrollbar {
-      width: 10px;
+      width: 12px;
     }
     *::-webkit-scrollbar-track {
-      @apply bg-gray-7;
+      @apply bg-transparent;
     }
     *::-webkit-scrollbar-thumb {
-      @apply bg-gray-6 hover:bg-gray-5 active:bg-gray-5/75;
+      @apply bg-mono-4 hover:bg-mono-5/50 active:bg-mono-5/75;
     }
   }

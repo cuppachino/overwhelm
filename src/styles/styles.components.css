@@ -4,7 +4,7 @@
   }
   .comp-btn {
     @apply h-fit w-fit py-2.5 px-3.5 rounded-xl cursor-pointer
-      border-2 border-dashed border-dark-7 hover:border-blue-500
+      border-2 border-dashed border-neutral-700 hover:border-blue-500
       text-sm font-medium uppercase text-blue-400 hover:text-blue-500
       active:brightness-75 whitespace-nowrap
       transition-all duration-100 hover:duration-[180ms];
