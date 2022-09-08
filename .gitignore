@@ -23,4 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 overwhelm.code-workspace
-/plugins/pmdrs-tw.cjs
