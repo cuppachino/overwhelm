@@ -1,13 +1,17 @@
-import { useState } from "react";
-import { Content } from "./components/Content";
+import { Outlet, Router } from '@tanstack/react-location';
+import { location, routes } from '@/router';
+
+import { Content } from '@/components';
+import { Navbar } from '@/features/Navbar';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="absolue flex flex-col inset-0 w-full h-screen bg-black text-white">
-      <Content className="">test</Content>
-    </div>
+    <Router location={location} routes={routes}>
+      <Content className='relative min-w-screen min-h-screen fill-current font-mp-sans'>
+        <Navbar routes={routes} />
+        <Outlet />
+      </Content>
+    </Router>
   );
 }
 
