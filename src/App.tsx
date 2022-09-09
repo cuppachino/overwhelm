@@ -7,7 +7,7 @@ import { Navbar } from '@/features/Navbar';
 function App() {
   return (
     <Router location={location} routes={routes}>
-      <Content className='relative min-w-screen min-h-screen fill-current font-mp-sans'>
+      <Content className='absolute inset-0 fill-current font-mp-sans'>
         <Navbar routes={routes} />
         <Outlet />
       </Content>
