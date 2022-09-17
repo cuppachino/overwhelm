@@ -1,5 +1,6 @@
 import { ReactLocation } from '@tanstack/react-location';
 import { ModifiedRoute } from '@/types/types.router';
+import Drafting from '@/pages/Drafting';
 
 export const location = new ReactLocation();
 
@@ -17,6 +18,15 @@ export const routes: ModifiedRoute[] = [
   {
     label: 'projects',
     path: 'projects',
-    element: () => import('@/pages/Projects').then((module) => <module.default />),
+    element: () =>
+      import('@/pages/Projects').then((module) => <module.default />),
+  },
+  {
+    label: 'drafting',
+    path: 'drafting',
+    // ? the async imports break hot reloading.
+    element: <Drafting />,
   },
 ];
+
+// todo: make all routes dynamic imports
